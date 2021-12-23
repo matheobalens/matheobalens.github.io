@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Message Envoyé - Mathéo Balens{% endblock %}
+
+{% block content %}
+    <main class="page cv-page">
+        <section style="margin: 150px;">
+            <div class="text-center">
+                </p><i class="fas fa-clipboard-check" style="text-align: center;font-size: 60px;color: forestgreen"></i>
+                <p class="text-center mt-2" style="font-size: 24px;">Message reçu ! Surveillez vos mails pour avoir votre réponse.
+                <p><a href="{{ path('home') }}">Retour à l'acceuil</a></p>
+            </div>
+        </section>
+    </main>
+{% endblock %}

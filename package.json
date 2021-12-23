@@ -1,0 +1,7 @@
+{
+  "name": "Matheo_Portfolio",
+  "version": "1.0.0",
+  "dependencies": {
+    "darkmode-js": "^1.5.7"
+  }
+}

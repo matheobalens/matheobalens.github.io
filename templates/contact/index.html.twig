@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Contact - Mathéo Balens{% endblock %}
+{% block content %}
+
+    <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <main class="page hire-me-page">
+        <section class="mt-3 portfolio-block hire-me">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="TypeWriter">Formulaire de contact</h2>
+                </div>
+                {{ form(form) }}
+            </div>
+        </section>
+    </main>
+{% endblock %}

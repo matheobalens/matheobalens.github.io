@@ -1,0 +1,100 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #696969;
+  --greyDark: #9baacf;
+}
+
+
+
+.bouton {
+  width: 100%;
+  margin-top: 1em;
+  height: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.bouton__primary {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--primary);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-light), inset -0.2rem -0.2rem 1rem var(--primary-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.bouton__primary:hover {
+  color: var(--white);
+}
+.bouton__primary:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-dark), inset -0.2rem -0.2rem 1rem var(--primary-light);
+}
+.bouton__secondary {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  color: var(--greyDark);
+}
+.bouton__secondary:hover {
+  color: var(--primary);
+}
+.bouton__secondary:active {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+.form {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+
+.form__input {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+  background: none;
+  font-family: inherit;
+  color: var(--greyDark);
+}
+
+.form__input__text {
+  width: 100%;
+  height: 7rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+  background: none;
+  font-family: inherit;
+  color: var(--greyDark);
+}
+
+.form__input__text::placeholder {
+  color: var(--greyLight-3);
+}
+
+.form__input::placeholder {
+  color: var(--greyLight-3);
+}
+.form__input__text:focus {
+  outline: none;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+}
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+}
+
+/*# sourceMappingURL=styles.css.map */
