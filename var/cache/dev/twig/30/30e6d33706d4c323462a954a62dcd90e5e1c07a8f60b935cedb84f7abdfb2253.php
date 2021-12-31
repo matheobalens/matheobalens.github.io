@@ -1476,6 +1476,6 @@ $context["voter_detail"], "vote", [], "array", false, false, false, 403) == twig
         </div>
     {% endif %}
 {% endblock %}
-", "@Security/Collector/security.html.twig", "/home/Matheo_Balens/Matheo_Portfolio/vendor/symfony/security-bundle/Resources/views/Collector/security.html.twig");
+", "@Security/Collector/security.html.twig", "/home/Matheo_Balens/matheobalens.github.io/vendor/symfony/security-bundle/Resources/views/Collector/security.html.twig");
     }
 }

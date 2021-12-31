@@ -3395,6 +3395,6 @@ body.outlook p {
         min-width: 0;
     }
 }
-", "@email/zurb_2/main.css", "/home/Matheo_Balens/Matheo_Portfolio/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/main.css");
+", "@email/zurb_2/main.css", "/home/Matheo_Balens/matheobalens.github.io/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/main.css");
     }
 }

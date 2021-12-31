@@ -155,6 +155,6 @@ class __TwigTemplate_f4d2a87b299270fa52f2585e5597937ac6d8337f5a2173e362dece8081c
 {% block panel %}
     {{ render(controller('web_profiler.controller.router::panelAction', { token: token })) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/home/Matheo_Balens/Matheo_Portfolio/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/home/Matheo_Balens/matheobalens.github.io/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

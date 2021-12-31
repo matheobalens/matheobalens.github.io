@@ -130,6 +130,6 @@ class __TwigTemplate_518f4cb8008eadadb3068b04089b80105f14407d79d71c406e2e3694d7a
         </div>
     </section>
 </main>
-{% endblock %}", "workinprogress/index.html.twig", "/home/Matheo_Balens/Matheo_Portfolio/templates/workinprogress/index.html.twig");
+{% endblock %}", "workinprogress/index.html.twig", "/home/Matheo_Balens/matheobalens.github.io/templates/workinprogress/index.html.twig");
     }
 }

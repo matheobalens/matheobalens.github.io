@@ -248,19 +248,20 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
     </section>
     <main class=\"page cv-page\">
         <section class=\"portfolio-block cv\">
-            <h2 class=\"text-center\" style=\"font-size: 39px;border-bottom-width: 1px;border-bottom-style: solid;margin: 40px;\"><i class=\"far fa-user-circle\" data-aos=\"zoom-in\" style=\"font-size: 74px;color: rgb(17,155,182);height: 84px;\"></i></h2>
+            <h2 class=\"text-center\" style=\"font-size: 39px;margin: 40px;\"><i class=\"far fa-user-circle\" data-aos=\"zoom-in\" style=\"font-size: 74px;color: rgb(17,155,182);height: 84px;\"></i></h2>
             <div class=\"container\">
                 <div data-aos=\"fade\" class=\"work-experience group\">
                     <div class=\"heading\">
                         <h2 class=\"text-center\">Experiences professionnelles</h2>
+                        <hr>
                     </div>
                     <div class=\"item\">
                         <div class=\"row\">
                             <div class=\"col-md-6\">
                                 <h3>OUVRIER AGRICOLE<br></h3>
-                                <h4 class=\"organization\" style=\"background: rgb(16,156,181);\">Exploitation agricole - Boiry Sainte Rictrude</h4>
+                                <h4 class=\"organization\" style=\"background: rgb(16,156,181);\">Exploitation agricole - Boiry-Sainte-Rictrude</h4>
                             </div>
-                            <div class=\"col-md-6\"><span class=\"period\">Juin - Août 2021</span></div>
+                            <div class=\"col-md-6\"><span class=\"period\">Juin - août 2021</span></div>
                         </div>
                         <p class=\"text-muted\">Travaux de binage manuel, entretien des parcelles et retrait des herbes envahissantes</p>
                     </div>
@@ -270,9 +271,9 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 <h3>Animateur Bénévole</h3>
                                 <h4 class=\"organization\" style=\"background: rgb(16,156,181);\">E.H.P.A.D Saint Camille - Arras.</h4>
                             </div>
-                            <div class=\"col-md-6\"><span class=\"period\">Juin - Septembre 2020</span></div>
+                            <div class=\"col-md-6\"><span class=\"period\">Juin - septembre 2020</span></div>
                         </div>
-                        <p class=\"text-muted\">Période de 35h de bénévolat dans le cadre du permis citoyen.</p>
+                        <p class=\"text-muted\">Période de 35 h de bénévolat dans le cadre du permis citoyen.</p>
                         <ul>
                             <li>Renfort du lien entre les résidents</li>
                             <li>Mise en place d'activités stimulantes pour la mémoire et la logique</li>
@@ -281,9 +282,12 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                     </div>
                 </div>
                 <div data-aos=\"fade\" class=\"education group\">
+                    <h2 class=\"text-center\" style=\"font-size: 39px;margin: 40px;\"><i class=\"fas fa-graduation-cap\" data-aos=\"zoom-in\" style=\"font-size: 74px;color: rgb(17,155,182);height: 84px;\"></i></h2>
                     <div class=\"heading\">
                         <h2 class=\"text-center\">Formations</h2>
+                        <hr>
                     </div>
+
                     <div class=\"item\">
                         <div class=\"row\">
                             <div class=\"col-md-6\">
@@ -394,7 +398,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                                 <path d=\"M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z\"></path>
                                             </svg></a></div>
                                     <div class=\"card-body\">
-                                        <h3 class=\"card-title\">Beatmaking</h3>
+                                        <h3 class=\"card-title\">Beat making</h3>
                                         <p class=\"card-text\"></p>
                                     </div>
                                 </div>
@@ -577,19 +581,20 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
     </section>
     <main class=\"page cv-page\">
         <section class=\"portfolio-block cv\">
-            <h2 class=\"text-center\" style=\"font-size: 39px;border-bottom-width: 1px;border-bottom-style: solid;margin: 40px;\"><i class=\"far fa-user-circle\" data-aos=\"zoom-in\" style=\"font-size: 74px;color: rgb(17,155,182);height: 84px;\"></i></h2>
+            <h2 class=\"text-center\" style=\"font-size: 39px;margin: 40px;\"><i class=\"far fa-user-circle\" data-aos=\"zoom-in\" style=\"font-size: 74px;color: rgb(17,155,182);height: 84px;\"></i></h2>
             <div class=\"container\">
                 <div data-aos=\"fade\" class=\"work-experience group\">
                     <div class=\"heading\">
                         <h2 class=\"text-center\">Experiences professionnelles</h2>
+                        <hr>
                     </div>
                     <div class=\"item\">
                         <div class=\"row\">
                             <div class=\"col-md-6\">
                                 <h3>OUVRIER AGRICOLE<br></h3>
-                                <h4 class=\"organization\" style=\"background: rgb(16,156,181);\">Exploitation agricole - Boiry Sainte Rictrude</h4>
+                                <h4 class=\"organization\" style=\"background: rgb(16,156,181);\">Exploitation agricole - Boiry-Sainte-Rictrude</h4>
                             </div>
-                            <div class=\"col-md-6\"><span class=\"period\">Juin - Août 2021</span></div>
+                            <div class=\"col-md-6\"><span class=\"period\">Juin - août 2021</span></div>
                         </div>
                         <p class=\"text-muted\">Travaux de binage manuel, entretien des parcelles et retrait des herbes envahissantes</p>
                     </div>
@@ -599,9 +604,9 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 <h3>Animateur Bénévole</h3>
                                 <h4 class=\"organization\" style=\"background: rgb(16,156,181);\">E.H.P.A.D Saint Camille - Arras.</h4>
                             </div>
-                            <div class=\"col-md-6\"><span class=\"period\">Juin - Septembre 2020</span></div>
+                            <div class=\"col-md-6\"><span class=\"period\">Juin - septembre 2020</span></div>
                         </div>
-                        <p class=\"text-muted\">Période de 35h de bénévolat dans le cadre du permis citoyen.</p>
+                        <p class=\"text-muted\">Période de 35 h de bénévolat dans le cadre du permis citoyen.</p>
                         <ul>
                             <li>Renfort du lien entre les résidents</li>
                             <li>Mise en place d'activités stimulantes pour la mémoire et la logique</li>
@@ -610,9 +615,12 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                     </div>
                 </div>
                 <div data-aos=\"fade\" class=\"education group\">
+                    <h2 class=\"text-center\" style=\"font-size: 39px;margin: 40px;\"><i class=\"fas fa-graduation-cap\" data-aos=\"zoom-in\" style=\"font-size: 74px;color: rgb(17,155,182);height: 84px;\"></i></h2>
                     <div class=\"heading\">
                         <h2 class=\"text-center\">Formations</h2>
+                        <hr>
                     </div>
+
                     <div class=\"item\">
                         <div class=\"row\">
                             <div class=\"col-md-6\">
@@ -723,7 +731,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                                 <path d=\"M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z\"></path>
                                             </svg></a></div>
                                     <div class=\"card-body\">
-                                        <h3 class=\"card-title\">Beatmaking</h3>
+                                        <h3 class=\"card-title\">Beat making</h3>
                                         <p class=\"card-text\"></p>
                                     </div>
                                 </div>
@@ -735,6 +743,6 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
         </section>
     </main>
 
-{% endblock %}", "home/index.html.twig", "/home/Matheo_Balens/Matheo_Portfolio/templates/home/index.html.twig");
+{% endblock %}", "home/index.html.twig", "/home/Matheo_Balens/matheobalens.github.io/templates/home/index.html.twig");
     }
 }

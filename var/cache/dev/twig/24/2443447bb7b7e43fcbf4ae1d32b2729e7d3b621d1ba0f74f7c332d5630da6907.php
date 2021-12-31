@@ -130,8 +130,8 @@ class __TwigTemplate_cb7ab4e0dd5b0392a2129f18da483e66fd668d1482f5abfbb2cef523d7c
         // line 50
         echo "
 <footer>
-    <div class=\"container\">
-        <div class=\"social-icons-custom\">
+    <div class=\"portfolio-block\">
+        <div class=\"container mt-O\">
             <p class=\"text-start\" style=\"color: rgb(106,106,106);\">Mathéo Balens © </p>
         </div>
     </div>
@@ -285,8 +285,8 @@ class __TwigTemplate_cb7ab4e0dd5b0392a2129f18da483e66fd668d1482f5abfbb2cef523d7c
 {% endblock %}
 
 <footer>
-    <div class=\"container\">
-        <div class=\"social-icons-custom\">
+    <div class=\"portfolio-block\">
+        <div class=\"container mt-O\">
             <p class=\"text-start\" style=\"color: rgb(106,106,106);\">Mathéo Balens © </p>
         </div>
     </div>
@@ -308,6 +308,6 @@ class __TwigTemplate_cb7ab4e0dd5b0392a2129f18da483e66fd668d1482f5abfbb2cef523d7c
 
 </body>
 
-</html>", "base.html.twig", "/home/Matheo_Balens/Matheo_Portfolio/templates/base.html.twig");
+</html>", "base.html.twig", "/home/Matheo_Balens/matheobalens.github.io/templates/base.html.twig");
     }
 }

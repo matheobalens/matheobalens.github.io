@@ -71,6 +71,6 @@ class __TwigTemplate_1cfa59a3878196f29a2c8eaccb3594542638e80e838cc665632c58cb147
     public function getSourceContext()
     {
         return new Source("{% extends \"@email/zurb_2/notification/body.txt.twig\" %}
-", "@email/default/notification/body.txt.twig", "/home/Matheo_Balens/Matheo_Portfolio/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.txt.twig");
+", "@email/default/notification/body.txt.twig", "/home/Matheo_Balens/matheobalens.github.io/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.txt.twig");
     }
 }

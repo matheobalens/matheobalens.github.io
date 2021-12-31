@@ -482,6 +482,6 @@ class __TwigTemplate_0fb025358d73cc47c1e40b29bb5b998a826dbd41e0cfcfcdcc516ca22af
         {% endfor %}
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/events.html.twig", "/home/Matheo_Balens/Matheo_Portfolio/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
+", "@WebProfiler/Collector/events.html.twig", "/home/Matheo_Balens/matheobalens.github.io/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
     }
 }

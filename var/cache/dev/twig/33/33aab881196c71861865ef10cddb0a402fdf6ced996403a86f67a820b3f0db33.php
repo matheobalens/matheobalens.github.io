@@ -227,6 +227,6 @@ class __TwigTemplate_da2ed53978d80eadd8597309d19f152716fece8994b2337396d16098172
         </div>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/exception.html.twig", "/home/Matheo_Balens/Matheo_Portfolio/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
+", "@WebProfiler/Collector/exception.html.twig", "/home/Matheo_Balens/matheobalens.github.io/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
     }
 }
