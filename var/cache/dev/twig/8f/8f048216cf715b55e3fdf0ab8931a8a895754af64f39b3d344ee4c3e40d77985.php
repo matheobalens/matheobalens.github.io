@@ -96,17 +96,26 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                     <div class=\"typewriter\">
                         <p style=\"border-radius: 5px;height: 77px;padding: 0;border-top: 0 none rgb(95,95,95);border-bottom-width: 0;border-bottom-color: rgb(75,75,75);\">Bonjour, je suis Mathéo Balens, apprenti développeur back-end.</p>
                     </div>
-
                 </div>
             </div>
         </section>
-        <section class=\"portfolio-block block-intro\" style=\"height: 289px;margin: 40px 0 0;padding-top: 50px;padding-bottom: 100px;\">
+        <section class=\"portfolio-block\">
+            <div class=\"container\">
+                <div class=\"cv-download text-center\">
+                    <button class=\"btn btn-info\" type=\"button\"><a  download=\"Matheo_Balens_CV\" style=\"text-decoration:none;color: white\" href=\"";
+        // line 20
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/CV_Mathéo_Balens.png"), "html", null, true);
+        echo "\">Télécharger mon CV</a></button>
+                </div>
+            </div>
+        </section>
+        <section class=\"portfolio-block block-intro\" style=\"height: 289px;padding-top: 50px;padding-bottom: 100px;\">
             <div class=\"container\">
                 <div class=\"about-me\"></div>
             </div>
             <div class=\"iut-lens\">
                 <a href=\"http://www.iut-lens.univ-artois.fr/\"><img alt=\"IUT de Lens\" src=\"";
-        // line 23
+        // line 29
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/unnamed.jpg"), "html", null, true);
         echo "\" style=\"border-width: 0;border-radius: 20px 20px 10px 10px;box-shadow: 0 0 6px;\"></a>
             </div>
@@ -180,7 +189,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                     <div class=\"portfolio-laptop-mockup\">
                         <div class=\"screen\">
                             <div class=\"visible screen-content\" style=\"background: url(";
-        // line 94
+        // line 100
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/Tempclipboard-image.png"), "html", null, true);
         echo ") left / cover no-repeat;font-size: 16px;padding: 0;min-height: 0;\"></div>
                         </div>
@@ -195,7 +204,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
             <div class=\"row justify-content-center align-items-center\">
                 <div class=\"col-md-6 col-lg-4\">
                     <div class=\"card border-0\" data-aos=\"fade-up\" data-aos-duration=\"500\"><a href=\"";
-        // line 106
+        // line 112
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("workinprogress");
         echo "\"><img class=\"card-img-top scale-on-hover\" src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/laravel.jpg"), "html", null, true);
@@ -208,7 +217,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                 </div>
                 <div class=\"col-md-6 col-lg-4\">
                     <div class=\"card border-0\" data-aos=\"fade-up\" data-aos-duration=\"500\"><a href=\"https://github.com/matheobalens/Labyrinthe\"><img class=\"card-img-top scale-on-hover\" src=\"";
-        // line 114
+        // line 120
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/unknown.png"), "html", null, true);
         echo "\" alt=\"Card Image\"></a>
                         <div class=\"card-body\">
@@ -223,7 +232,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
             <div class=\"row justify-content-center align-items-center\">
                 <div class=\"col-md-6 col-lg-4\">
                     <div class=\"card border-0\" data-aos=\"fade-up\" data-aos-duration=\"500\"><a href=\"https://github.com/matheobalens/Sokoban-Foxers\"><img class=\"card-img-top scale-on-hover\" src=\"";
-        // line 126
+        // line 132
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/sokoban.jpg"), "html", null, true);
         echo "\" alt=\"Card Image\"></a>
                         <div class=\"card-body\">
@@ -234,7 +243,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                 </div>
                 <div class=\"col-md-6 col-lg-4\">
                     <div class=\"card border-0\" data-aos=\"fade-up\" data-aos-duration=\"500\"><a href=\"https://github.com/matheobalens/Portail-Iut-informatique/tree/code\"><img class=\"card-img-top scale-on-hover\" src=\"";
-        // line 134
+        // line 140
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/refonte_portail_iut.jpg"), "html", null, true);
         echo "\" alt=\"Card Image\"></a>
                         <div class=\"card-body\">
@@ -329,7 +338,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 </div>
                                 <h3>CSS</h3>
                                 <div class=\"progress\">
-                                    <div class=\"progress-bar\" aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109CB5FF ;width: 90%;\"><span class=\"visually-hidden\">90%</span></div>
+                                    <div class=\"progress-bar\" aria-valuenow=\"78\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109CB5FF ;width: 78%;\"><span class=\"visually-hidden\">78%</span></div>
                                 </div>
                                 <h3>PHP</h3>
                                 <div class=\"progress\">
@@ -342,6 +351,18 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 <h3>Java</h3>
                                 <div class=\"progress\">
                                     <div class=\"progress-bar\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 70%;\"><span class=\"visually-hidden\">70%</span></div>
+                                </div>
+                                <h3>Python</h3>
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar\" aria-valuenow=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 60%;\"><span class=\"visually-hidden\">60%</span></div>
+                                </div>
+                                <h3>SQL</h3>
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 85%;\"><span class=\"visually-hidden\">85%</span></div>
+                                </div>
+                                <h3>Git</h3>
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar\" aria-valuenow=\"65\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 65%;\"><span class=\"visually-hidden\">65%</span></div>
                                 </div>
                             </div>
                         </div>
@@ -363,6 +384,10 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 <div class=\"row\">
                                     <div class=\"col-1\"><i class=\"icon ion-at icon\" style=\"border-bottom-color: rgb(16,156,181);color: rgb(16,156,181);\"></i></div>
                                     <div class=\"col-9\"><span>matheobalens@gmail.com</span></div>
+                                </div>
+                                <div class=\"row\">
+                                    <div class=\"col-1\"><i class=\"fab fa-linkedin\" style=\"border-bottom-color: rgb(16,156,181);color: rgb(16,156,181);\"></i></div>
+                                    <div class=\"col-9\"><span><a href=\"https://www.linkedin.com/in/matheo-balens/\">LinkedIn</a></span></div>
                                 </div>
                             </div>
                         </div>
@@ -409,7 +434,6 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
             </div>
         </section>
     </main>
-
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -431,7 +455,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
 
     public function getDebugInfo()
     {
-        return array (  238 => 134,  227 => 126,  212 => 114,  199 => 106,  184 => 94,  110 => 23,  93 => 9,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  247 => 140,  236 => 132,  221 => 120,  208 => 112,  193 => 100,  119 => 29,  107 => 20,  93 => 9,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -449,11 +473,17 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                     <div class=\"typewriter\">
                         <p style=\"border-radius: 5px;height: 77px;padding: 0;border-top: 0 none rgb(95,95,95);border-bottom-width: 0;border-bottom-color: rgb(75,75,75);\">Bonjour, je suis Mathéo Balens, apprenti développeur back-end.</p>
                     </div>
-
                 </div>
             </div>
         </section>
-        <section class=\"portfolio-block block-intro\" style=\"height: 289px;margin: 40px 0 0;padding-top: 50px;padding-bottom: 100px;\">
+        <section class=\"portfolio-block\">
+            <div class=\"container\">
+                <div class=\"cv-download text-center\">
+                    <button class=\"btn btn-info\" type=\"button\"><a  download=\"Matheo_Balens_CV\" style=\"text-decoration:none;color: white\" href=\"{{ asset('assets/img/CV_Mathéo_Balens.png') }}\">Télécharger mon CV</a></button>
+                </div>
+            </div>
+        </section>
+        <section class=\"portfolio-block block-intro\" style=\"height: 289px;padding-top: 50px;padding-bottom: 100px;\">
             <div class=\"container\">
                 <div class=\"about-me\"></div>
             </div>
@@ -662,7 +692,7 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 </div>
                                 <h3>CSS</h3>
                                 <div class=\"progress\">
-                                    <div class=\"progress-bar\" aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109CB5FF ;width: 90%;\"><span class=\"visually-hidden\">90%</span></div>
+                                    <div class=\"progress-bar\" aria-valuenow=\"78\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109CB5FF ;width: 78%;\"><span class=\"visually-hidden\">78%</span></div>
                                 </div>
                                 <h3>PHP</h3>
                                 <div class=\"progress\">
@@ -675,6 +705,18 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 <h3>Java</h3>
                                 <div class=\"progress\">
                                     <div class=\"progress-bar\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 70%;\"><span class=\"visually-hidden\">70%</span></div>
+                                </div>
+                                <h3>Python</h3>
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar\" aria-valuenow=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 60%;\"><span class=\"visually-hidden\">60%</span></div>
+                                </div>
+                                <h3>SQL</h3>
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 85%;\"><span class=\"visually-hidden\">85%</span></div>
+                                </div>
+                                <h3>Git</h3>
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar\" aria-valuenow=\"65\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"background-color: #109cb5 ;width: 65%;\"><span class=\"visually-hidden\">65%</span></div>
                                 </div>
                             </div>
                         </div>
@@ -696,6 +738,10 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
                                 <div class=\"row\">
                                     <div class=\"col-1\"><i class=\"icon ion-at icon\" style=\"border-bottom-color: rgb(16,156,181);color: rgb(16,156,181);\"></i></div>
                                     <div class=\"col-9\"><span>matheobalens@gmail.com</span></div>
+                                </div>
+                                <div class=\"row\">
+                                    <div class=\"col-1\"><i class=\"fab fa-linkedin\" style=\"border-bottom-color: rgb(16,156,181);color: rgb(16,156,181);\"></i></div>
+                                    <div class=\"col-9\"><span><a href=\"https://www.linkedin.com/in/matheo-balens/\">LinkedIn</a></span></div>
                                 </div>
                             </div>
                         </div>
@@ -742,7 +788,6 @@ class __TwigTemplate_f890b1f7e771ca816fbbafb519cb7677e6f14f35474b311d5a8e472f81e
             </div>
         </section>
     </main>
-
 {% endblock %}", "home/index.html.twig", "/home/Matheo_Balens/matheobalens.github.io/templates/home/index.html.twig");
     }
 }

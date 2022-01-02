@@ -8,12 +8,11 @@
     <title>{% block title %}Accueil - Mathéo Balens{% endblock %}</title>
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/button.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
-    <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome-all.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fonts/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fonts/ionicons.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome5-overrides.min.css') }}">
@@ -25,8 +24,12 @@
 
 <body>
 
-<nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="font-family: Lato, sans-serif;transform: perspective(0px);filter: hue-rotate(310deg) invert(0%);">
-    <div class="container"><a class="navbar-brand logo" href="{{ path('home') }}" style="filter: blur(0px) grayscale(100%) hue-rotate(360deg);">Mathéo Balens</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient"
+     style="font-family: Lato, sans-serif;transform: perspective(0px);filter: hue-rotate(310deg) invert(0%);">
+    <div class="container"><a class="navbar-brand logo" href="{{ path('home') }}"
+                              style="filter: blur(0px) grayscale(100%) hue-rotate(360deg);">Mathéo Balens</a>
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span
+                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"></li>
@@ -40,21 +43,17 @@
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>
             </ul>
-        </div><button class="btn-primary btn-sm" type="button" style="text-decoration:none; filter: hue-rotate(75deg);"><a class="text-center" href="{{ path('contact') }}" style="text-decoration:none;color: rgb(255,255,255);font-size: 16px;border-bottom-style: none;">Contactez moi !</a></button>
+        </div>
+        <button class="btn-primary btn-sm" type="button" style="text-decoration:none; filter: hue-rotate(75deg);"><a
+                    class="text-center" href="{{ path('contact') }}"
+                    style="text-decoration:none;color: rgb(255,255,255);font-size: 16px;border-bottom-style: none;">Contactez
+                moi !</a></button>
     </div>
 </nav>
 
-{% block content%}
+{% block content %}
 
 {% endblock %}
-
-<footer>
-    <div class="portfolio-block">
-        <div class="container mt-O">
-            <p class="text-start" style="color: rgb(106,106,106);">Mathéo Balens © </p>
-        </div>
-    </div>
-</footer>
 
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
@@ -67,9 +66,5 @@
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script src="{{ asset('assets/js/bubbly-button.js') }}"></script>
-
-
-
 </body>
-
 </html>
