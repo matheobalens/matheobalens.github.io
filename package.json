@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "darkmode-js": "^1.5.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
